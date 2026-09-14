@@ -113,6 +113,10 @@ li strong {
     }
 
     li {margin-bottom: 3px;}
+
+    section, article {
+        break-inside: avoid;
+    }
 }
 
 @media (max-width: 600px) {
