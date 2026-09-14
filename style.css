@@ -117,6 +117,10 @@ li strong {
     section, article {
         break-inside: avoid;
     }
+
+    .experiencia {
+        break-before: page;
+    }
 }
 
 @media (max-width: 600px) {
