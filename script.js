@@ -12,3 +12,14 @@ tituloNombre.addEventListener("click", () => {
         tituloNombre.style.color = ""
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const btnDesplegar = document.querySelector('.btn-desplegar');
+    const contenido = document.querySelector('.contenido-desplegable');
+
+    if (btnDesplegar && contenido) {
+        btnDesplegar.addEventListener('click', () => {
+            contenido.classList.toggle('activo');
+        });
+    }
+});

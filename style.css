@@ -175,3 +175,31 @@ li strong {
         font-size: 1.5rem;
     }
 }
+
+.btn-desplegar{
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+
+.contenido-desplegable {
+    display: none;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #ffffff;
+    }
+
+.contenido-desplegable.activo {
+    display: none !important;
+}
